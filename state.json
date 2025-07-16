@@ -1,0 +1,72 @@
+{
+  "date": "2025-07-16",
+  "invites_today": 3,
+  "users": {
+    "328572507": {
+      "username": "kurgxn",
+      "greeted": true,
+      "responded": false,
+      "invited": false
+    },
+    "6509123875": {
+      "username": "berserkkkkk00",
+      "greeted": true,
+      "responded": false,
+      "invited": false
+    },
+    "6632103289": {
+      "username": "wwispas",
+      "greeted": true,
+      "responded": true,
+      "invited": true
+    },
+    "1388614006": {
+      "username": "alexeyyssq",
+      "greeted": false,
+      "responded": false,
+      "invited": false
+    },
+    "715064607": {
+      "username": "Alexey_D33",
+      "greeted": false,
+      "responded": false,
+      "invited": false
+    },
+    "904409860": {
+      "username": "jcrs_ak",
+      "greeted": false,
+      "responded": false,
+      "invited": false
+    },
+    "5772617235": {
+      "username": "CurlyMisha",
+      "greeted": false,
+      "responded": false,
+      "invited": false
+    },
+    "5039956214": {
+      "username": "art3mxt",
+      "greeted": false,
+      "responded": false,
+      "invited": false
+    },
+    "647452648": {
+      "username": "iluiluiluiluiluiluiluiluiluilu",
+      "greeted": false,
+      "responded": false,
+      "invited": false
+    },
+    "7680582064": {
+      "username": "Kvyat_68",
+      "greeted": false,
+      "responded": false,
+      "invited": false
+    },
+    "397213275": {
+      "username": "EvgenyNug",
+      "greeted": false,
+      "responded": false,
+      "invited": false
+    }
+  }
+}
