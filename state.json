@@ -1,72 +1,69 @@
 {
-  "date": "2025-07-16",
-  "invites_today": 3,
+  "date": "2025-07-17",
+  "invites_today": 1,
   "users": {
-    "328572507": {
-      "username": "kurgxn",
-      "greeted": true,
-      "responded": false,
-      "invited": false
-    },
-    "6509123875": {
-      "username": "berserkkkkk00",
-      "greeted": true,
-      "responded": false,
-      "invited": false
-    },
-    "6632103289": {
-      "username": "wwispas",
+    "6537848690": {
+      "username": "bartmann_3000",
       "greeted": true,
       "responded": true,
       "invited": true
     },
-    "1388614006": {
-      "username": "alexeyyssq",
+    "7583584803": {
+      "username": null,
       "greeted": false,
       "responded": false,
       "invited": false
     },
-    "715064607": {
-      "username": "Alexey_D33",
+    "8031556864": {
+      "username": "e6evez",
       "greeted": false,
       "responded": false,
       "invited": false
     },
-    "904409860": {
-      "username": "jcrs_ak",
+    "7992743644": {
+      "username": null,
       "greeted": false,
       "responded": false,
       "invited": false
     },
-    "5772617235": {
-      "username": "CurlyMisha",
+    "7017741794": {
+      "username": "gordanatt",
       "greeted": false,
       "responded": false,
       "invited": false
     },
-    "5039956214": {
-      "username": "art3mxt",
+    "7326891560": {
+      "username": "private_3account",
       "greeted": false,
       "responded": false,
       "invited": false
     },
-    "647452648": {
-      "username": "iluiluiluiluiluiluiluiluiluilu",
+    "1196891033": {
+      "username": "AnneLarm",
       "greeted": false,
       "responded": false,
       "invited": false
     },
-    "7680582064": {
-      "username": "Kvyat_68",
+    "6603579406": {
+      "username": "azmanyta61315",
       "greeted": false,
       "responded": false,
       "invited": false
     },
-    "397213275": {
-      "username": "EvgenyNug",
+    "6442061688": {
+      "username": null,
       "greeted": false,
       "responded": false,
       "invited": false
+    }
+  },
+  "channels": {
+    "1578940660": {
+      "posts": [
+        640,
+        641,
+        639
+      ]
     }
   }
 }

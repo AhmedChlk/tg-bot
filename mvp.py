@@ -55,7 +55,7 @@ SESSION  = os.getenv("SESSION_NAME", "session")
 PHONE    = os.getenv("PHONE_NUMBER", "").strip() or None
 
 CHANNEL_SRC    = os.getenv("CHANNEL_SOURCE", "").strip()
-CHANNEL_TARGET = os.getenv("CHANNEL_TARGET", "").strip()
+CHANNEL_TARGET = ""
 
 DAILY_QUOTA = 15  
 SCRAP_LIMIT = 10 
@@ -71,25 +71,18 @@ tokens = DM_HOURLY
 last_token = time.time()
 
 GREETS = [
-    "Hey {username} 👋, are you a Formula 1 fan?",
-    "Hola {username} 😊, do you love Formula 1?",
-    "Yo {username} 🙌, I’m crazy about Formula 1 too!",
-    "Heyyy {username} 🚀, Formula 1 is life, right?",
-    "Wassup {username} 😉, Formula 1 is the best sport ever!",
-    "Heeey {username} 👋, do you follow Formula 1 races?",
-    "Hey {username}! 🏎️ Big Formula 1 fan like me?",
+    "Hey {username} 👋,",
+    "Hola {username} 😊,",
+    "Yo {username} 🙌,",
+    "Heyyy {username} 🚀,",
+    "Wassup {username} 😉,",
+    "Heeey {username} 👋,",
+    "Hey {username}!",
 
 ]
 
 INVITES = [
-    "👉 Don’t miss out! Join the F1 action here: {link}",
-    "📢 Exclusive access to F1 news & gossip: {link}",
-    "🔥 Love Formula 1? Tap here now ➡ {link}",
-    "🏎️ Get your F1 fix here 👉 {link}",
-    "🔥 Discover the fastest updates on the grid: {link}",
-    "🚀 Be part of the ultimate F1 fan zone: {link}",
-    "💡 Your front-row seat to F1 starts here: {link}",
-
+    "this message was sent by a bot that can shill for you learn more with @ahmeeedclk "
 ]
 
 
@@ -119,11 +112,6 @@ def human_delay(min_sec=120, max_sec=300):  # 5 à 15 minutes
 
 def scrape_delay():
     return random.uniform(SCRAPE_DELAY_MIN, SCRAPE_DELAY_MAX)
-
-if not (API_ID and API_HASH and CHANNEL_SRC and CHANNEL_TARGET):
-    print("❌ Vérifie .env (API_ID, API_HASH, CHANNEL_SOURCE, CHANNEL_TARGET)")
-    sys.exit(1)
-
 
 
 # --------------------------------------------------------------------------- #
