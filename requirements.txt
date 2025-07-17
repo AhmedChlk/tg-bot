@@ -1,5 +1,8 @@
-telethon
-python-dotenv
-PySocks
-opentele
-curl_cffi
+
+python-telegram-bot==21.4
+ollama==0.1.8
+faiss-cpu==1.8.0
+pypdf==4.0.2
+numpy==1.26.4
+httpx==0.27.0
+requests==2.31.0
