@@ -3,3 +3,4 @@ python-dotenv
 PySocks
 opentele
 curl_cffi
+appium-python-client

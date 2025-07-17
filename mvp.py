@@ -490,6 +490,8 @@ async def dm_users(client, session_limit: int = 2):
 
 
 async def main():
+    from appium_setup import init_appium
+    driver = init_appium()
     # 1) TELETHON CLIENT WITH MOBILE FINGERPRINT
     client = TelegramClient(
         session=SESSION,           # e.g. "learnfx_29"
